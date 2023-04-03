@@ -11,7 +11,7 @@ export class Task {
 
         let day = this.completeDate.toLocaleString();
 
-        return day;
+        return day; 
 
     }
 }
