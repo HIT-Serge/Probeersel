@@ -38,7 +38,7 @@ let tasks = [
     new Task('aankleden'),
     new Task('naar werk fietsen'),
     new Task('werken'),
-    new Task('eten maken')
+    new Task('eten maken') 
 ]
 
 let toDo = tasks.filter(task => {return !task.completed});
